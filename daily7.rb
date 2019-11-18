@@ -8,4 +8,4 @@ numbers = [1, 2, 4, 2]
 # end
 # p even_numbers
 
-p numbers.select
+p numbers.select { |number| number.even? }
