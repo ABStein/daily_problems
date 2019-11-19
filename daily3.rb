@@ -15,9 +15,4 @@ fruits = [
 
 
 new_fruits = Hash[fruits.map(&:values).map(&:flatten)]
-# p new_fruits
-
-
-p fruits[0]['name']
-
-p fruits[0]['color']
+p new_fruits
